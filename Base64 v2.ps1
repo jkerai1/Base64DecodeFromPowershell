@@ -1,4 +1,4 @@
-function Base64 {
+function Convert-FromBase64 {
     [CmdletBinding()]
     param (
         [Parameter(
