@@ -6,5 +6,5 @@ A silly little script to decode Base64 in powershell so one doesn't have to put 
 
 Alternatively you can create alias/doskey in CMD:
 
-doskey b64encode =powershell "[convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes(\"$*\"))"
+doskey b64encode =powershell "[convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes(\"$*\"))"  
 doskey b64decode =powershell "[Text.Encoding]::UTF8.GetString([convert]::FromBase64String(\"$*\"))"
